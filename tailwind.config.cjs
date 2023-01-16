@@ -13,7 +13,8 @@ module.exports = {
       backgroundImage: {
         'Rest': "url('./src/assets/bg-1.webp')",
         'Tours': "url('./src/assets/bg-2.webp')",
-        'Tour': "url('./src/assets/bg-3.webp')"
+        'Guide': "url('./src/assets/pexels-pixabay-220147.jpg')",
+        'Guides2': "url('./src/assets/pexels-valentin-antonucci-841286.jpg')"
       }
     }
   },

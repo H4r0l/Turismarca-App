@@ -6,7 +6,7 @@ const Products = () => {
   return (
     <div className='md:w-2/3 lg:w-2/6'>
     
-      <ul className='p-2 mx-3  mt-3 bg-gray-700 rounded-md bg-Tour bg-cover shadow-xl shadow-gray-500  bg-center opacity-85 text-Alata text-black '>
+      <ul className='p-2 mx-3  mt-3 bg-gray-700 rounded-md bg-Guides2 bg-cover shadow-xl shadow-gray-500  bg-center opacity-85 text-Alata text-black '>
       <div className='bg-gray-100 opacity-80 rounded-md my-3 mx-2 py-2 px-2 shadow-2xl'>
         <h1 className='text-Alata text-4xl font-bold text-center'>Recorridos</h1>
       </div>

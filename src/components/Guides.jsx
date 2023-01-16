@@ -3,7 +3,7 @@ import React from 'react'
 const Guides = () => {
   return (
     <div className='xl:w-1/5 xl:absolute 2xl:bottom-[41%] 2xl:left-[36%] xl:bottom-[3%] xl:left-[37%] '>
-          <div className='p-2 mx-3  mt-3 bg-gray-700 rounded-md bg-Tour bg-cover shadow-xl shadow-gray-500  bg-center opacity-85 mb-4'>
+          <div className='p-2 mx-3  mt-3 bg-gray-700 rounded-md bg-Guide bg-cover shadow-xl shadow-gray-500  bg-center opacity-85 mb-4'>
     <div className='flex flex-col'>
       <div className='bg-gray-100 opacity-80 rounded-md mb-3 mx-2 py-0.5 px-2 shadow-2xl'>
         <h1 className='text-Alata text-4xl font-bold text-center '>Guias</h1>
