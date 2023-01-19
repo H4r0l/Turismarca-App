@@ -1,5 +1,4 @@
 import React from "react";
-import Home from "../assets/home-app-logo.svg"
 import Logo from "../assets/Logo.svg"
 import {BsFillCartFill} from "react-icons/bs"
 

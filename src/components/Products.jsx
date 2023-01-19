@@ -13,12 +13,12 @@ const Products = () => {
         {ProductsData.map((item,index) => {
             return (
                 <li key={index} className='text-xl bg-gray-100 text-black opacity-80 gap-3 rounded-md mb-3 mx-2 py-2 px-2 flex justify-between shadow-xl text-justify '>
-                    
                     <strong className='m-2'>
                         <h2 >{item.title}</h2>
                         
+                        <span className='animate-wiggle-more text-2xl underline '>{item.price}</span> 
                         <br />
-                        <span>{item.price}</span> <br/>
+                        <br/>
                         <span>{item.description}</span>
                     </strong>
                     <button  className='sticky inset-0 text-3xl m-1'>

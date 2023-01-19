@@ -24,6 +24,6 @@ export const ProductsData = [
         price: "$35.000",
         description: "Disfruta de las mejores obleas, postres y lugares para conocer en Subachoque. - Paseo Hygge - Delicias del paraíso - Parque central - La jaboneria - Subachoque",
         url: "https://wa.me/p/7459672917406013/573043718643"
-    },
+    }
     
 ]

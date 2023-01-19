@@ -23,7 +23,6 @@ function App() {
       <Products/>
       <Guides/>
       </div>
-      
       <PopUpMap onClose={handleOnClose} getUrl={getUrl} visible={showMap}/>
     </div>
     
