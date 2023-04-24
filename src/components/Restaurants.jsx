@@ -33,8 +33,8 @@ const Restaurants = (props) => {
         <div className='bg-gray-100 opacity-80 rounded-md mb-3 mx-2 py-0.5 px-2 shadow-2xl'>
           <h1 className='text-Alata text-4xl font-bold text-center '>Restaurantes</h1>
         </div>
-        <div className='h-2/3 -mx-2 px-4 scroll-smooth scrollbar-thin scrollbar-thumb-teal-800 scrollbar-track-teal-200 overflow-y-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full '>
-          <div className='bg-gray-100 opacity-80 gap-4 rounded-md mb-3 mx-2 py-2 px-2 flex justify-between shadow-xl'>
+        <div className='h-2/3 -mx-1 px-4 scroll-smooth scrollbar-thin scrollbar-thumb-teal-800 scrollbar-track-teal-200 overflow-y-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full '>
+          <div className='bg-gray-100 opacity-80 gap-4 rounded-md mb-3 mx-2 py-2 px-2 flex justify-between shadow-xl text-center'>
               <img src={restIcon} alt="" />
                 <h1 className='text-Alata text-2xl font-bold'>Bocaditos Paisas</h1>
               <button onClick={map1} >
@@ -48,7 +48,7 @@ const Restaurants = (props) => {
               <img src={Map} alt="" className='animate-pulse animate-duration-400 animate-infinite animate-delay-200 animate-ease-in-out'/>
               </button>
             </div>
-            <div className='bg-gray-100 opacity-80 rounded-md mb-3 mx-2 py-2 px-2 flex justify-between shadow-xl'>
+            <div className='bg-gray-100 opacity-80 rounded-md mb-3 mx-2 py-2 px-2 flex justify-between shadow-xl text-center'>
               <img src={restIcon} alt="" />
                 <h1 className='text-Alata text-2xl leading-none font-bold'>El Tablazzo <br/> Parrilla</h1>
               <button onClick={map3}>
